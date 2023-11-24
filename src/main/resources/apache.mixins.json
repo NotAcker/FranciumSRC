@@ -1,0 +1,30 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.apache.core.mx",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MinecraftClientAccessor"
+  ],
+  "client": [
+    "BoxMixin",
+    "ClientPlayerEntityMixin",
+    "ClientPlayerInteractionManagerMixin",
+    "ClientPlayNetworkHandlerMixin",
+    "ClientWorldMixin",
+    "EndCrystalEntityMixin",
+    "EntityMixin",
+    "EntityRenderDispatcherMixin",
+    "GameRendererMixin",
+    "HeldItemRendererMixin",
+    "InGameHudMixin",
+    "KeyboardMixin",
+    "MinecraftClientMixin",
+    "MouseMixin",
+    "ItemStackMixin",
+    "EndCrystalItemMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "schemaVersion": 1,
+  "id": "org_apache",
+  "version": "5.2.1",
+  "name": "apache",
+  "custom": {
+    "fabric-loom:generated": true
+  },
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "org.apache.core.Main"
+    ]
+  },
+  "mixins": [
+    "apache.mixins.json"
+  ],
+  "accessWidener": "apache.accesswidener",
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "1.19.2"
+  }
+}
